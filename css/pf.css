@@ -1,0 +1,172 @@
+ *{
+   margin: 0;
+   padding: 0;
+ }
+nav{
+  background-color: rgb(166, 208, 210);
+  border: 2px solid black;
+}
+ul{
+  display: table;
+  margin: auto;
+  list-style-type: none;
+  padding: 0;
+}
+li{
+  display:table-cell;
+  padding: 20px 30px;
+}
+a{
+  text-decoration:none;
+  color: black;
+  font-family: cursive;
+  text-shadow: 3px;
+}
+body{
+  background-color: rgba(79, 117, 104, 0.72);
+color:black;
+}
+p{
+  font-size: 2em;
+  text-align: center;
+  margin: 100px;
+  padding: 10px;
+}
+h1{
+  font-family: fantasy;
+  font-size: 6em;
+  text-align: center;
+  text-shadow: 0px 10px 8px;
+  text-decoration: underline;
+}
+h2{
+
+  text-align: center;
+  font-family: monospace;
+  color: black;
+}
+img{
+  width: 250px;
+  height: 250px;
+  border: 2px outset black;
+}
+#haut{
+  width: auto;
+  height: 300px;
+}
+#bas{
+  width: auto;
+  height:300px;
+}
+#hautg{
+  margin: 2%;
+  left: 200px;
+  position: absolute;
+}
+#hautd{
+  margin: 2%;
+  left: 800px;
+  position: absolute;
+}
+#basg{
+  margin: 2%;
+  left: 200px;
+  position: absolute;
+}
+#basd{
+  margin: 2%;
+  left: 800px;
+  position: absolute;
+}
+a{
+  text-align: center;
+}
+.logo {
+  margin: 2%
+}
+#texte1{
+  color: white;
+  width: 500px;
+  float: right;
+  margin-right:450px;
+  margin-top: 70px;
+}
+#texte2{
+  color: white;
+  width: 500px;
+  float: right;
+  margin-right:450px;
+  margin-top: 70px;
+}
+#texte3{
+  color: white;
+  width: 500px;
+  float: right;
+  margin-right:450px;
+  margin-top: 70px;
+}
+#texte4{
+  width: 500px;
+  float: right;
+  margin-right:450px;
+  margin-top: 70px;
+  color: white;
+}
+textarea{
+  width: 80%;
+}
+#div1{
+    border: 8px outset black;
+  background-color: rgba(33, 33, 33, 0.6);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 2%;
+    left: 430px;
+    top: 100px;
+    text-align: center;
+  }
+
+#fotter{
+border: 1px solid black;
+  background-color: rgb(133, 71, 130);
+  height: 50px;
+  width: auto;
+  text-align: center;
+
+}
+a.top{
+  position: fixed;
+  position relative;
+ right: 25px;
+ top: 75%
+}
+#bouton1{
+  width: 70px;
+  height: 40px;
+border:2px outset rgb(133, 71, 130) ;
+border-radius: 30%;
+}
+.vert{
+  border: 1px solid black;
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.rouge{
+border: 1px solid black;
+background-color: grey;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+display: inline-block;
+}
+#competence{
+margin: 8%;
+  margin-left: 410px;
+  border: 5px outset black;
+background-color: rgba(63, 62, 68, 0.62);;
+width: 500px
+}

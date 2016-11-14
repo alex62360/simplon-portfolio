@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/pf.css">
+    <title>Portfolio</title>
+    <script type="text/javascript" src="js/jScript.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <a href="" class="top"><button class="button" id="bouton1">Home</button></a>
+
+
+
+    <h2>Bonjour et bienvenue sur mon portfolio , Je vous présente ici mes projets et les exercices que j'ai effectué lors de la prairie SIMPLON.</h2>
+    <h2>Bonne visite!</h2>
+
+
+    <h1>Home</h1>
+    <div id="haut">
+        <div id="hautg">
+            <a href="#maquette"><img src="../portfolio/image/maquettelicorne.png" /></a>
+        </div>
+        <div id="hautd">
+            <a href="#visage"><img src="../portfolio/image/tete.png" /></a>
+        </div>
+    </div>
+
+    <div id="bas">
+        <div id="basg">
+            <a href="#fleuriste"><img src="../portfolio/image/logo1.png" /></a>
+        </div>
+        <div id="basd">
+            <a href="#tableau"><img src="../portfolio/image/degrade.png" /></a>
+        </div>
+    </div>
+
+
+    <h1> Portfolio</h1>
+
+
+    <div id="maquette"></div>
+
+
+    <div class="logo">
+        <p>Projet maquette:</p>
+        <a href="../chall1AM/site.html"><img src="../portfolio/image/maquettelicorne.png" /></a>
+        <div id="texte1">Lors de cette exercices nous devions reproduire une maquette qui nous à étais imposé.</div>
+
+
+        <div id="visage"></div>
+        <p>Projet Visage:</p>
+        <a href="../tête/exo1.html" target="_blank"><img src="../portfolio/image/tete.png" /></a>
+        <div id="texte2">Lors de cette exercices nous devions créer un visage avec des divs.Nous pouvions effectuer des actions avec celui-ci grace à des Hover et des Active.</div>
+
+
+        <div id="fleuriste"></div>
+        <p>Projet Fleuriste: </p>
+        <a href="../chall1AM/site.html" target="_blank"><img src="../portfolio/image/accueil.png" /></a>
+        <div id="texte3">Lors de cette exercices nous devions créer un site pour un fleuriste avec certaines conditions à respecter.</div>
+
+
+        <div id="tableau"></div>
+        <p>Projet Tableau: </p>
+        <a href="../lientableau/exotrois.html" target="_blank"><img src="../portfolio/image/degrade.png" /></a>
+        <div id="texte4">Lors de cette exercices nous devions reproduire le même tableau 5fois.</div>
+    </div>
+
+
+    <!-- -->
+
+    <h1> About</h1>
+    <p> Bonjour je m'apelle Alexis Merlier j'ai 20ans j'habite à Saint Léonard une petite commune juste à cotés de boulogne sur mer. J'ai effectué un bac Systéme Electronique et Numérique au lycée Edouard branly. Je suis actuellement en formation simplon pour
+        ainsi pouvoir devenir Developpeur web.</P>
+    <p>Voici mes compétences:</p>
+
+    <div id="competence">
+        <div id="bar0">
+
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            =Bleu
+        </div>
+
+        <script>
+            progress(9, 0);
+            //document.getElementById("bar0").children[1].style.backgroundColor = 'green';
+        </script>
+
+        <div id="bar1">
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            =Rouge
+        </div>
+        <script>
+            progress(8, 1);
+            //document.getElementById("bar0").children[1].style.backgroundColor = 'green';
+        </script>
+
+
+
+        <div id="bar2">
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            =Vert
+        </div>
+        <script>
+          progress(8,2);
+          //document.getElementById("bar0").children[1].style.backgroundColor = 'green';
+        </script>
+
+
+        <div id="bar3">
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            <div class="rouge"></div>
+            = Jaune
+        </div>
+        <script>
+                  progress(7,3);
+                  //document.getElementById("bar0").children[1].style.backgroundColor = 'green';
+                </script>
+    </div>
+
+    <h1> Contactez-moi!</h1>
+
+    <div id="div1">
+        <label for="nom">Votre Nom :</label>
+        <br/>
+        <input type="text" name="nom" id="nom" />
+
+        <br/>
+
+        <label for="prénoms">Votre Prénom :</label>
+        <br/>
+        <input type="text" name="prénom" id="prénom " />
+
+        <br/>
+
+        <label for="mail">Votre E-mail :</label>
+        <br/>
+        <input type="text" name="mail" id="mail " />
+
+        <br/>
+
+        <label for="Objet">Objet :</label>
+        <br/>
+        <input type="text" name="Objet" id="Objet " />
+
+        <br/>
+        <textarea name="message" rows="8" cols="40"></textarea>
+        <br/>
+        <button class="button" id="bouton">Envoyer</button>
+    </div>
+
+
+
+    <div id="fotter">&copy; Merlier.A</div>
+
+</body>
+
+</html>
